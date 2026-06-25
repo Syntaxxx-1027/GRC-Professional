@@ -15,6 +15,7 @@
 | Assets Managed | 7 |
 | Risks Assessed | 11 |
 | Controls Implemented | 11 |
+| Evidence Screenshots | 13 |
 
 ---
 
@@ -29,12 +30,20 @@
 |--------|-------|----------|-------|
 | 7 | 11 | 11 | 4/4 |
 
+**Context:** TechStart Inc. is a cloud-first SaaS organization preparing for ISO 27001 implementation before migrating critical customer workloads to AWS. The objective was to identify security risks, establish appropriate controls, document governance decisions, and improve audit readiness while protecting customer information and ensuring regulatory compliance.
+
 **Key Accomplishments:**
 - Conducted comprehensive asset inventory and classification for 7 information assets supporting ISO 27001 ISMS implementation
 - Performed risk assessment identifying 11 risks across cloud migration scope, including 2 critical and 6 high-severity risks requiring immediate attention
 - Implemented 11 security controls aligned with ISO 27001 Annex A requirements and NIST CSF
 - Developed 5 risk treatment plans with documented mitigation strategies, acceptance criteria, and residual risk calculations
 - Completed ISO 27001 risk assessment documentation supporting certification readiness for cloud infrastructure
+
+**Decisions Made:** Conducted an asset inventory and identified 11 key business risks. Selected ISO 27001 Annex A controls focused on access management, logging, encryption, incident response, vendor security, and vulnerability management. Risk treatments prioritized critical risks based on business impact and likelihood while documenting Statements of Applicability (SoA) with clear business justifications.
+
+**Outcomes:** Produced a complete ISO 27001 risk assessment including 7 critical assets, 11 documented risks, 11 mapped security controls, multiple treatment plans, audit evidence, and governance documentation that improves certification readiness and provides a structured risk management process.
+
+**Evidence:** 13 screenshot(s) available in `/evidence/iso-risk-assessment/` folder
 
 ---
 
@@ -71,4 +80,3 @@ grc-portfolio/
 
 ---
 
-*Generated with [GRC Practice Lab](https://grcmadesimple.com) on 6/24/2026*
