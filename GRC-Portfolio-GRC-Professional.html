@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GRC Portfolio - GRC Professional</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" rel="stylesheet">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: linear-gradient(135deg, #0f172a, #1e3a5f); min-height: 100vh; color: #e2e8f0; line-height: 1.6; }
+        .container { max-width: 900px; margin: 0 auto; padding: 40px 20px; }
+        .header { text-align: center; margin-bottom: 48px; }
+        .header h1 { font-size: 36px; font-weight: 800; margin-bottom: 8px; background: linear-gradient(135deg, #60a5fa, #a78bfa); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+        .header p { color: #94a3b8; font-size: 18px; }
+        .stats-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px; margin-bottom: 48px; }
+        .stat-card { background: rgba(255,255,255,0.05); border: 1px solid rgba(255,255,255,0.1); border-radius: 12px; padding: 24px; text-align: center; }
+        .stat-value { font-size: 32px; font-weight: 700; color: #60a5fa; }
+        .stat-label { font-size: 12px; color: #94a3b8; text-transform: uppercase; letter-spacing: 1px; }
+        .project-card { background: rgba(255,255,255,0.03); border: 1px solid rgba(255,255,255,0.08); border-radius: 16px; padding: 32px; margin-bottom: 24px; }
+        .project-header { display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 20px; flex-wrap: wrap; gap: 12px; }
+        .project-title { font-size: 22px; font-weight: 700; color: #f8fafc; }
+        .project-subtitle { font-size: 14px; color: #94a3b8; margin-top: 4px; }
+        .badge { display: inline-block; padding: 4px 12px; border-radius: 20px; font-size: 12px; font-weight: 500; margin-right: 6px; }
+        .badge-blue { background: rgba(59, 130, 246, 0.2); color: #60a5fa; }
+        .badge-green { background: rgba(34, 197, 94, 0.2); color: #4ade80; }
+        .metrics-row { display: grid; grid-template-columns: repeat(4, 1fr); gap: 12px; margin-bottom: 24px; }
+        .metric { background: rgba(255,255,255,0.05); border-radius: 8px; padding: 16px; text-align: center; }
+        .metric-value { font-size: 24px; font-weight: 700; color: #60a5fa; }
+        .metric-label { font-size: 11px; color: #94a3b8; }
+        .bullets { margin-bottom: 24px; }
+        .bullets h4 { font-size: 14px; color: #94a3b8; margin-bottom: 12px; }
+        .bullet { padding: 12px 16px; background: rgba(255,255,255,0.02); border-left: 3px solid #60a5fa; margin-bottom: 8px; border-radius: 0 8px 8px 0; font-size: 14px; }
+        .rationale { background: linear-gradient(135deg, rgba(139, 92, 246, 0.1), rgba(59, 130, 246, 0.1)); border-radius: 12px; padding: 24px; margin-top: 20px; }
+        .rationale h4 { font-size: 14px; color: #a78bfa; margin-bottom: 16px; }
+        .rationale-item { margin-bottom: 16px; }
+        .rationale-label { font-size: 12px; color: #94a3b8; margin-bottom: 4px; }
+        .rationale-text { font-size: 14px; color: #e2e8f0; }
+        .skills-section { background: rgba(255,255,255,0.03); border-radius: 16px; padding: 32px; margin-top: 48px; }
+        .skills-section h3 { font-size: 18px; margin-bottom: 20px; }
+        .skills-grid { display: flex; flex-wrap: wrap; gap: 8px; }
+        .skill-tag { background: rgba(255,255,255,0.1); padding: 8px 16px; border-radius: 20px; font-size: 13px; }
+        .footer { text-align: center; margin-top: 48px; padding-top: 24px; border-top: 1px solid rgba(255,255,255,0.1); color: #64748b; font-size: 13px; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🛡️ GRC Professional</h1>
+            <p>GRC Professional Portfolio</p>
+        </div>
+        
+        <div class="stats-grid">
+            <div class="stat-card"><div class="stat-value">1</div><div class="stat-label">Projects</div></div>
+            <div class="stat-card"><div class="stat-value">7</div><div class="stat-label">Assets</div></div>
+            <div class="stat-card"><div class="stat-value">11</div><div class="stat-label">Risks</div></div>
+            <div class="stat-card"><div class="stat-value">11</div><div class="stat-label">Controls</div></div>
+        </div>
+        <div class="project-card">
+            <div class="project-header">
+                <div>
+                    <div class="project-title">TechStart Inc</div>
+                    <div class="project-subtitle">ISO 27001 Risk Assessment for Cloud Migration</div>
+                </div>
+                <div>
+                    <span class="badge badge-blue">ISO 27001</span><span class="badge badge-blue">NIST CSF</span>
+                    <span class="badge badge-green">100%</span>
+                </div>
+            </div>
+            <div class="metrics-row">
+                <div class="metric"><div class="metric-value">7</div><div class="metric-label">Assets</div></div>
+                <div class="metric"><div class="metric-value">11</div><div class="metric-label">Risks</div></div>
+                <div class="metric"><div class="metric-value">11</div><div class="metric-label">Controls</div></div>
+                <div class="metric"><div class="metric-value">4/4</div><div class="metric-label">Tasks</div></div>
+            </div><div class="bullets"><h4>Key Accomplishments</h4><div class="bullet">Conducted comprehensive asset inventory and classification for 7 information assets supporting ISO 27001 ISMS implementation</div><div class="bullet">Performed risk assessment identifying 11 risks across cloud migration scope, including 2 critical and 6 high-severity risks requiring immediate attention</div><div class="bullet">Implemented 11 security controls aligned with ISO 27001 Annex A requirements and NIST CSF</div><div class="bullet">Developed 5 risk treatment plans with documented mitigation strategies, acceptance criteria, and residual risk calculations</div><div class="bullet">Completed ISO 27001 risk assessment documentation supporting certification readiness for cloud infrastructure</div></div><div class="rationale"><h4><i class="bi bi-lightbulb"></i> Decision Rationale</h4><div class="rationale-item"><div class="rationale-label">Context</div><div class="rationale-text">TechStart Inc. is a cloud-first SaaS organization preparing for ISO 27001 implementation before migrating critical customer workloads to AWS. The objective was to identify security risks, establish appropriate controls, document governance decisions, and improve audit readiness while protecting customer information and ensuring regulatory compliance.</div></div><div class="rationale-item"><div class="rationale-label">Key Decisions</div><div class="rationale-text">Conducted an asset inventory and identified 11 key business risks. Selected ISO 27001 Annex A controls focused on access management, logging, encryption, incident response, vendor security, and vulnerability management. Risk treatments prioritized critical risks based on business impact and likelihood while documenting Statements of Applicability (SoA) with clear business justifications.</div></div><div class="rationale-item"><div class="rationale-label">Outcomes</div><div class="rationale-text">Produced a complete ISO 27001 risk assessment including 7 critical assets, 11 documented risks, 11 mapped security controls, multiple treatment plans, audit evidence, and governance documentation that improves certification readiness and provides a structured risk management process.</div></div></div></div>
+        <div class="skills-section">
+            <h3>Skills & Frameworks</h3>
+            <div class="skills-grid">
+                <span class="skill-tag">Risk Assessment</span>
+                <span class="skill-tag">Control Testing</span>
+                <span class="skill-tag">Compliance Management</span>
+                <span class="skill-tag">Vendor Risk</span>
+                <span class="skill-tag">Policy Development</span>
+                <span class="skill-tag">ISO 27001</span>
+                <span class="skill-tag">NIST CSF</span>
+                <span class="skill-tag">SOC 2</span>
+                <span class="skill-tag">PCI DSS</span>
+                <span class="skill-tag">HIPAA</span>
+                <span class="skill-tag">GDPR</span>
+            </div>
+        </div>
+        
+        <div class="footer">
+            Generated with GRC Practice Lab • 6/24/2026
+        </div>
+    </div>
+<style>
+.iso-triage-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(310px,1fr));gap:16px;margin-top:14px;}
+.iso-triage-card{background:#fff;border:1px solid #e2e8f0;border-radius:18px;padding:16px;box-shadow:0 14px 32px rgba(15,23,42,.07);}
+.iso-triage-head{display:flex;justify-content:space-between;gap:12px;align-items:flex-start;margin-bottom:8px;}
+.iso-triage-head h4{margin:0 0 6px;font-size:16px;color:#0f172a;}
+.iso-triage-head p{margin:0;color:#64748b;font-size:12px;line-height:1.4;}
+.iso-cia-buttons{display:flex;gap:8px;flex-wrap:wrap;margin:12px 0;}
+.iso-cia-btn{border:1px solid #cbd5e1;background:#f8fafc;border-radius:999px;padding:8px 11px;font-size:12px;font-weight:800;color:#334155;cursor:pointer;transition:.18s ease;}
+.iso-cia-btn:hover{transform:translateY(-1px);box-shadow:0 8px 18px rgba(15,23,42,.08);}
+.iso-cia-btn.active{background:#1d4ed8;color:#fff;border-color:#1d4ed8;box-shadow:0 10px 24px rgba(37,99,235,.22);}
+.iso-expert-row{border:1px solid #e2e8f0;border-radius:14px;padding:12px;margin:10px 0;background:#f8fafc;}
+.iso-expert-row p{margin:8px 0 0;color:#475569;}
+</style>
+
+</body>
+</html>
